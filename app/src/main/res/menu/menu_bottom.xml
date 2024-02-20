@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:title="Domov"
+        android:title="@string/menu_home_str"
         android:id="@+id/home"
+        android:icon="@drawable/home_icon"
         />
     <item
-        android:title="Kategórie"
+        android:title="@string/menu_category_str"
+        android:id="@+id/category"
+        android:icon="@drawable/category_icon"
+        />
+    <item
+        android:title="@string/menu_cart_str"
         android:id="@+id/cart"
-        />
-    <item
-        android:title="Košík"
-        android:id="@+id/profile"
+        android:icon="@drawable/cart_icon"
         />
 </menu>

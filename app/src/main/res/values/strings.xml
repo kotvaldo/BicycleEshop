@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">BikeZone</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home_str">Domov</string>
+    <string name="menu_category_str">Kategórie</string>
+    <string name="menu_cart_str">Košík</string>
 </resources>
