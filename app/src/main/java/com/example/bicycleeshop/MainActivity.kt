@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setSupportActionBar(binding.content?.topAppBar)
+        setSupportActionBar(findViewById(R.id.topAppBar))
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.fragmentContainerView)
@@ -37,12 +37,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.menu_drawer, menu)
-        return true
     }
 
     override fun onSupportNavigateUp(): Boolean {
